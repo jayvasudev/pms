@@ -1,0 +1,142 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userLoginId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "userPassword",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "userEmailId",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "userMobileNumber",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "passwordSetDate",
+            "fieldType": "Date",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "passwordExpiryDate",
+            "fieldType": "Date",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "lockedFlag",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "activeFlag",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "activeFromDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "activeTillDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "phoneVerifiedFlag",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "emailVerifiedFlag",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "imageLocation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastPhoneVerificationCode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastPhoneVerificationCodeSentAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "lastPhoneVerificationCodeExpiresAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "phoneActivatedAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "activatedPhoneDevice",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastEmailVerificationLink",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastEmailVerificationLinkSentAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "lastEmailVerificationLinkExpiresAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "emailActivatedAt",
+            "fieldType": "LocalDateTime"
+        },
+        {
+            "fieldName": "activatedEmailClient",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "versionId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "createdBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "createdDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "lastModifiedBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lastModifiedDate",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20180313071353",
+    "entityTableName": "application_user",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false
+}
